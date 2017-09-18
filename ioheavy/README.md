@@ -8,6 +8,5 @@ In this workload, we used 20-byte keys and 100-byte values for the key-value pai
 To see more details, please refer to the README file in each individual directory for each system.
 
 ## Details
-
 + [ethereum/parity](ethereum/README.md) IOHeavy driver
-+ [hyperledger](hyperledger/README.md) IOHeavy driver
+
