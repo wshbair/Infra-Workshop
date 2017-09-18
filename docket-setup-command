@@ -1,4 +1,4 @@
-#Ubuntu Docker-CE
+* Ubuntu Docker-CE
 sudo apt-get update
 sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
 sudo apt-get update
@@ -8,7 +8,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 sudo apt-get install docker-ce
 
-# Test docker installation
+* Test docker installation
 docker run hello-world
 docker run -d -p 5000:5000 --name registry registry:2
 docker build -t 127.0.0.1:5000/geth .
