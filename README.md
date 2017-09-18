@@ -7,4 +7,4 @@ We provide some workloads to stress the layers in order to understand their indi
   * [IOHeavy](ioheavy/README.md) workload description.
   
 * Execution layer - CPUHeavy
-  [CPUHeavy](cpuheavy/README.md) workload description.
+  * [CPUHeavy](cpuheavy/README.md) workload description.
