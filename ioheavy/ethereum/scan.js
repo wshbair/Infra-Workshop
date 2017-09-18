@@ -1,6 +1,4 @@
 var Web3 = require('web3');
-//var BigNumber = require('bignumber.js');
-
 var web3 = new Web3();
 web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 
@@ -12,8 +10,6 @@ var start_key = parseInt(process.argv[2]);
 var size = parseInt(process.argv[3]);
 var sig = parseInt(process.argv[4]);
 var contract = ioContract.at(process.argv[5]);
-
-//var arg_sig = new BigNumber(sig);
 
 var timestamp;
 
@@ -32,7 +28,7 @@ function sendTxn(start_key, size, sig) {
   web3.personal.unlockAccount(web3.eth.accounts[0], "");
   contract.scan(start_key, size, sig, {
     from: web3.eth.accounts[0],
-    gas: '10000000000000',
+    gas: '4700000',
     gasPrice: 0
   });
 }
