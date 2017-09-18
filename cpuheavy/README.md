@@ -7,5 +7,4 @@ To see more details, please refer to the README file in each individual director
 
 ## Details
 
-+ [ethereum/parity](ethereum/README.md) CPUHeavy driver
-+ [hyperledger](hyperledger/README.md) CPUHeavy driver
++ [ethereum](ethereum/README.md) CPUHeavy driver
