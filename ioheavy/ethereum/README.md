@@ -1,6 +1,7 @@
 # Experiment Setup
 
 * Requirments:  sudo apt-get install npm & npm install web3@0.19 
+* Modify the deploy.js to give the password for eth.account[0]
 * use `node deploy.js` to deploy the smart contract into blockchain(ethereum). It will output the deployed smart contract address
 into `stdout`.
 
