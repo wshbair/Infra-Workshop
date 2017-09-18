@@ -1,9 +1,7 @@
 # Experiment Setup
 
-Need to deploy the ioheavy smart contract first.
-The source code of ioheavy smart contract source code in Solidity is `blockbench/benchmark/contracts/ethereum/ioheavy.sol` as a reference.
-
-* use `node deploy.js` to deploy the smart contract into blockchain(ethereum/parity). It will output the deployed smart contract address
+* Requirments:  sudo apt-get install npm & npm install web3@0.19 
+* use `node deploy.js` to deploy the smart contract into blockchain(ethereum). It will output the deployed smart contract address
 into `stdout`.
 
 # Run
@@ -15,6 +13,4 @@ into `stdout`.
   `sig` is a id stamp of this request used for distinguish this request from the others (due to some web3.js library bugs, this is needed). `contract_address`
   is the deployed smart contract address returned by `deploy.js`.
 
- #Requirments 
- sudo apt-get install npm
- npm install web3@0.19 
+ 
