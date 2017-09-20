@@ -9,4 +9,4 @@ We provide some workloads to stress the layers in order to understand their indi
 * Execution layer - CPUHeavy
   * [CPUHeavy](cpuheavy/README.md) workload description.
 
-The original source code of there workloads are found in https://github.com/wshbair/blockbench 
+## The original source code of those workloads are found in https://github.com/wshbair/blockbench 
